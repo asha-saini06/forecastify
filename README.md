@@ -23,20 +23,29 @@ Forecastify is a web application built with Next.js for fetching and displaying 
 
    ```bash
    git clone https://github.com/asha-saini06/forecastify.git
+```
 
 1. Navigate to the project directory:
-   cd forecastify
+ ```bash
+cd forecastify
+```
 
-2. Install dependencies:
-    npm install
+3. Install dependencies:
+```bash
+ npm install
+```
 
-3. Create a `.env.local` file in the root directory and add your OpenWeatherMap API key:
-    NEXT_PUBLIC_OPENWEATHERMAP_API_KEY=your_api_key_here
+5. Create a `.env.local` file in the root directory and add your OpenWeatherMap API key:
+```bash
+NEXT_PUBLIC_OPENWEATHERMAP_API_KEY=your_api_key_here
+```
 
-4. Run the development server:
-    npm run dev
+6. Run the development server:
+```bash
+npm run dev
+```
 
-5. Open http://localhost:3000 in your browser to view the application.
+8. Open ``` http://localhost:3000 ``` in your browser to view the application.
 
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
